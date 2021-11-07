@@ -21,6 +21,61 @@
 		5B5BFEBC2736DC0A00FEAD2F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFE8E2736DC0700FEAD2F /* Persistence.swift */; };
 		5B5BFEBD2736DC0A00FEAD2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B5BFE8F2736DC0A00FEAD2F /* Assets.xcassets */; };
 		5B5BFEBE2736DC0A00FEAD2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B5BFE8F2736DC0A00FEAD2F /* Assets.xcassets */; };
+		5B5BFED02736E3E400FEAD2F /* AppViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFECF2736E3E400FEAD2F /* AppViewer.swift */; };
+		5B5BFED22736E3F500FEAD2F /* AppViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFED12736E3F500FEAD2F /* AppViewer.swift */; };
+		5B5BFED42736E4E100FEAD2F /* TempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFED32736E4E100FEAD2F /* TempView.swift */; };
+		5B5BFED52736E4E100FEAD2F /* TempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFED32736E4E100FEAD2F /* TempView.swift */; };
+		5B5BFED72736EB7800FEAD2F /* WordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFED62736EB7800FEAD2F /* WordRow.swift */; };
+		5B5BFED82736EB7800FEAD2F /* WordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFED62736EB7800FEAD2F /* WordRow.swift */; };
+		5B5BFEDA2736EBCB00FEAD2F /* WordsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFED92736EBCB00FEAD2F /* WordsList.swift */; };
+		5B5BFEDB2736EBCB00FEAD2F /* WordsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFED92736EBCB00FEAD2F /* WordsList.swift */; };
+		5B5BFEDD2736EDA300FEAD2F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFEDC2736EDA300FEAD2F /* DetailView.swift */; };
+		5B5BFEDE2736EDA300FEAD2F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFEDC2736EDA300FEAD2F /* DetailView.swift */; };
+		5B5BFEE12736F09100FEAD2F /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFEE02736F09100FEAD2F /* Word.swift */; };
+		5B5BFEE22736F09100FEAD2F /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFEE02736F09100FEAD2F /* Word.swift */; };
+		5B5BFEE42736F20800FEAD2F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFEE32736F20800FEAD2F /* Data.swift */; };
+		5B5BFEE52736F20800FEAD2F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFEE32736F20800FEAD2F /* Data.swift */; };
+		5B5BFEE72736FE0500FEAD2F /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFEE62736FE0500FEAD2F /* DataRepository.swift */; };
+		5B5BFEE82736FE0500FEAD2F /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFEE62736FE0500FEAD2F /* DataRepository.swift */; };
+		5B5BFEEA2737039000FEAD2F /* LearnedWordsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFEE92737039000FEAD2F /* LearnedWordsList.swift */; };
+		5B5BFEEB2737039000FEAD2F /* LearnedWordsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFEE92737039000FEAD2F /* LearnedWordsList.swift */; };
+		5B5BFEEE273707F900FEAD2F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5B5BFEED273707F900FEAD2F /* Lottie */; };
+		5B5BFEF02737084200FEAD2F /* animation_asset.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B5BFEEF2737084200FEAD2F /* animation_asset.json */; };
+		5B5BFEF12737084200FEAD2F /* animation_asset.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B5BFEEF2737084200FEAD2F /* animation_asset.json */; };
+		5B67C3F3273851F300CEDB97 /* AvecMoi WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5B67C3F2273851F300CEDB97 /* AvecMoi WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5B67C3F8273851F600CEDB97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B67C3F7273851F600CEDB97 /* Assets.xcassets */; };
+		5B67C3FE273851F600CEDB97 /* AvecMoi WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5B67C3FD273851F600CEDB97 /* AvecMoi WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5B67C403273851F600CEDB97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67C402273851F600CEDB97 /* ContentView.swift */; };
+		5B67C405273851F600CEDB97 /* AvecMoiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67C404273851F600CEDB97 /* AvecMoiApp.swift */; };
+		5B67C407273851F600CEDB97 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67C406273851F600CEDB97 /* ComplicationController.swift */; };
+		5B67C409273851F700CEDB97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B67C408273851F700CEDB97 /* Assets.xcassets */; };
+		5B67C40C273851F700CEDB97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B67C40B273851F700CEDB97 /* Preview Assets.xcassets */; };
+		5B67C419273877EC00CEDB97 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B72295727370EF10093EEA6 /* HomeView.swift */; };
+		5B67C41A2738784200CEDB97 /* WordsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFED92736EBCB00FEAD2F /* WordsList.swift */; };
+		5B67C41B2738784E00CEDB97 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFEDC2736EDA300FEAD2F /* DetailView.swift */; };
+		5B67C41C2738785200CEDB97 /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFEE62736FE0500FEAD2F /* DataRepository.swift */; };
+		5B67C41D2738785800CEDB97 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFEE02736F09100FEAD2F /* Word.swift */; };
+		5B67C41E2738786400CEDB97 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFEE32736F20800FEAD2F /* Data.swift */; };
+		5B67C41F2738786C00CEDB97 /* WordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFED62736EB7800FEAD2F /* WordRow.swift */; };
+		5B67C4202738788100CEDB97 /* AvecMoi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BFE8A2736DC0700FEAD2F /* AvecMoi.xcdatamodeld */; };
+		5B67C421273878EC00CEDB97 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B84FC7827377A8C00D32435 /* PracticeView.swift */; };
+		5B67C422273878F200CEDB97 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B84FC7B2737805400D32435 /* Quiz.swift */; };
+		5B67C423273878F500CEDB97 /* QuizRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B84FC7E2737809E00D32435 /* QuizRepository.swift */; };
+		5B7229522737094A0093EEA6 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7229512737094A0093EEA6 /* LottieView.swift */; };
+		5B72295527370CF50093EEA6 /* owl.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B72295427370CF50093EEA6 /* owl.json */; };
+		5B72295627370CF50093EEA6 /* owl.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B72295427370CF50093EEA6 /* owl.json */; };
+		5B72295827370EF10093EEA6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B72295727370EF10093EEA6 /* HomeView.swift */; };
+		5B72295927370EF10093EEA6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B72295727370EF10093EEA6 /* HomeView.swift */; };
+		5B72295B2737239E0093EEA6 /* home_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B72295A2737239E0093EEA6 /* home_animation.json */; };
+		5B72295C2737239E0093EEA6 /* home_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B72295A2737239E0093EEA6 /* home_animation.json */; };
+		5B84FC7927377A8C00D32435 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B84FC7827377A8C00D32435 /* PracticeView.swift */; };
+		5B84FC7A27377A8C00D32435 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B84FC7827377A8C00D32435 /* PracticeView.swift */; };
+		5B84FC7C2737805400D32435 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B84FC7B2737805400D32435 /* Quiz.swift */; };
+		5B84FC7D2737805400D32435 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B84FC7B2737805400D32435 /* Quiz.swift */; };
+		5B84FC7F2737809E00D32435 /* QuizRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B84FC7E2737809E00D32435 /* QuizRepository.swift */; };
+		5B84FC802737809E00D32435 /* QuizRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B84FC7E2737809E00D32435 /* QuizRepository.swift */; };
+		5B97C64627383623007D09C7 /* Itim-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B97C64527383622007D09C7 /* Itim-Regular.ttf */; };
+		5B97C64727383623007D09C7 /* Itim-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B97C64527383622007D09C7 /* Itim-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +93,46 @@
 			remoteGlobalIDString = 5B5BFE992736DC0A00FEAD2F;
 			remoteInfo = "AvecMoi (macOS)";
 		};
+		5B67C3F4273851F300CEDB97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B5BFE852736DC0700FEAD2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B67C3F1273851F300CEDB97;
+			remoteInfo = "AvecMoi WatchKit App";
+		};
+		5B67C3FF273851F600CEDB97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B5BFE852736DC0700FEAD2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B67C3FC273851F600CEDB97;
+			remoteInfo = "AvecMoi WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B67C410273851F700CEDB97 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5B67C3F3273851F300CEDB97 /* AvecMoi WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B67C413273851F700CEDB97 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5B67C3FE273851F600CEDB97 /* AvecMoi WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5B5BFE8B2736DC0700FEAD2F /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
@@ -55,6 +149,37 @@
 		5B5BFEAD2736DC0A00FEAD2F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5BFEB12736DC0A00FEAD2F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		5B5BFEB32736DC0A00FEAD2F /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		5B5BFECF2736E3E400FEAD2F /* AppViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewer.swift; sourceTree = "<group>"; };
+		5B5BFED12736E3F500FEAD2F /* AppViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewer.swift; sourceTree = "<group>"; };
+		5B5BFED32736E4E100FEAD2F /* TempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempView.swift; sourceTree = "<group>"; };
+		5B5BFED62736EB7800FEAD2F /* WordRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRow.swift; sourceTree = "<group>"; };
+		5B5BFED92736EBCB00FEAD2F /* WordsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsList.swift; sourceTree = "<group>"; };
+		5B5BFEDC2736EDA300FEAD2F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		5B5BFEE02736F09100FEAD2F /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		5B5BFEE32736F20800FEAD2F /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		5B5BFEE62736FE0500FEAD2F /* DataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
+		5B5BFEE92737039000FEAD2F /* LearnedWordsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnedWordsList.swift; sourceTree = "<group>"; };
+		5B5BFEEF2737084200FEAD2F /* animation_asset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_asset.json; sourceTree = "<group>"; };
+		5B67C3EF273851F300CEDB97 /* AvecMoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvecMoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B67C3F2273851F300CEDB97 /* AvecMoi WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AvecMoi WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B67C3F7273851F600CEDB97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B67C3FD273851F600CEDB97 /* AvecMoi WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AvecMoi WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B67C402273851F600CEDB97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B67C404273851F600CEDB97 /* AvecMoiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvecMoiApp.swift; sourceTree = "<group>"; };
+		5B67C406273851F600CEDB97 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		5B67C408273851F700CEDB97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B67C40B273851F700CEDB97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B67C40D273851F700CEDB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B7229512737094A0093EEA6 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		5B72295427370CF50093EEA6 /* owl.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = owl.json; sourceTree = "<group>"; };
+		5B72295727370EF10093EEA6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5B72295A2737239E0093EEA6 /* home_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home_animation.json; sourceTree = "<group>"; };
+		5B84FC7827377A8C00D32435 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		5B84FC7B2737805400D32435 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		5B84FC7E2737809E00D32435 /* QuizRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizRepository.swift; sourceTree = "<group>"; };
+		5B97C64527383622007D09C7 /* Itim-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Itim-Regular.ttf"; sourceTree = "<group>"; };
+		5B97C6482738368F007D09C7 /* AvecMoi--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AvecMoi--macOS--Info.plist"; sourceTree = "<group>"; };
+		5B97C6492738376B007D09C7 /* AvecMoi--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AvecMoi--iOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B5BFEEE273707F900FEAD2F /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,27 +212,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5B67C3FA273851F600CEDB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		5B5BFE842736DC0700FEAD2F = {
 			isa = PBXGroup;
 			children = (
+				5B97C6492738376B007D09C7 /* AvecMoi--iOS--Info.plist */,
+				5B97C6482738368F007D09C7 /* AvecMoi--macOS--Info.plist */,
+				5B5BFECE2736E3AF00FEAD2F /* iOS */,
 				5B5BFE892736DC0700FEAD2F /* Shared */,
 				5B5BFE9B2736DC0A00FEAD2F /* macOS */,
 				5B5BFEA42736DC0A00FEAD2F /* Tests iOS */,
 				5B5BFEB02736DC0A00FEAD2F /* Tests macOS */,
+				5B67C3F6273851F300CEDB97 /* AvecMoi WatchKit App */,
+				5B67C401273851F600CEDB97 /* AvecMoi WatchKit Extension */,
 				5B5BFE952736DC0A00FEAD2F /* Products */,
+				5B72295D273725230093EEA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		5B5BFE892736DC0700FEAD2F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				5B5BFEDF2736F05800FEAD2F /* Model */,
+				5B5BFECD2736E29100FEAD2F /* Views */,
 				5B5BFE8C2736DC0700FEAD2F /* AvecMoiApp.swift */,
-				5B5BFE8D2736DC0700FEAD2F /* ContentView.swift */,
 				5B5BFE8E2736DC0700FEAD2F /* Persistence.swift */,
 				5B5BFE8F2736DC0A00FEAD2F /* Assets.xcassets */,
+				5B97C64527383622007D09C7 /* Itim-Regular.ttf */,
+				5B5BFEEF2737084200FEAD2F /* animation_asset.json */,
+				5B72295A2737239E0093EEA6 /* home_animation.json */,
+				5B72295427370CF50093EEA6 /* owl.json */,
 				5B5BFE8A2736DC0700FEAD2F /* AvecMoi.xcdatamodeld */,
 			);
 			path = Shared;
@@ -119,6 +263,9 @@
 				5B5BFE9A2736DC0A00FEAD2F /* AvecMoi.app */,
 				5B5BFEA12736DC0A00FEAD2F /* Tests iOS.xctest */,
 				5B5BFEAD2736DC0A00FEAD2F /* Tests macOS.xctest */,
+				5B67C3EF273851F300CEDB97 /* AvecMoi.app */,
+				5B67C3F2273851F300CEDB97 /* AvecMoi WatchKit App.app */,
+				5B67C3FD273851F600CEDB97 /* AvecMoi WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				5B5BFE9C2736DC0A00FEAD2F /* macOS.entitlements */,
+				5B5BFED12736E3F500FEAD2F /* AppViewer.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -149,6 +297,78 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		5B5BFECD2736E29100FEAD2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B5BFE8D2736DC0700FEAD2F /* ContentView.swift */,
+				5B5BFED32736E4E100FEAD2F /* TempView.swift */,
+				5B5BFED62736EB7800FEAD2F /* WordRow.swift */,
+				5B5BFED92736EBCB00FEAD2F /* WordsList.swift */,
+				5B5BFEDC2736EDA300FEAD2F /* DetailView.swift */,
+				5B5BFEE92737039000FEAD2F /* LearnedWordsList.swift */,
+				5B7229512737094A0093EEA6 /* LottieView.swift */,
+				5B72295727370EF10093EEA6 /* HomeView.swift */,
+				5B84FC7827377A8C00D32435 /* PracticeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B5BFECE2736E3AF00FEAD2F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5B5BFECF2736E3E400FEAD2F /* AppViewer.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		5B5BFEDF2736F05800FEAD2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B5BFEE02736F09100FEAD2F /* Word.swift */,
+				5B5BFEE32736F20800FEAD2F /* Data.swift */,
+				5B5BFEE62736FE0500FEAD2F /* DataRepository.swift */,
+				5B84FC7B2737805400D32435 /* Quiz.swift */,
+				5B84FC7E2737809E00D32435 /* QuizRepository.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B67C3F6273851F300CEDB97 /* AvecMoi WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5B67C3F7273851F600CEDB97 /* Assets.xcassets */,
+			);
+			path = "AvecMoi WatchKit App";
+			sourceTree = "<group>";
+		};
+		5B67C401273851F600CEDB97 /* AvecMoi WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5B67C402273851F600CEDB97 /* ContentView.swift */,
+				5B67C404273851F600CEDB97 /* AvecMoiApp.swift */,
+				5B67C406273851F600CEDB97 /* ComplicationController.swift */,
+				5B67C408273851F700CEDB97 /* Assets.xcassets */,
+				5B67C40D273851F700CEDB97 /* Info.plist */,
+				5B67C40A273851F700CEDB97 /* Preview Content */,
+			);
+			path = "AvecMoi WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5B67C40A273851F700CEDB97 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5B67C40B273851F700CEDB97 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B72295D273725230093EEA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,6 +385,9 @@
 			dependencies = (
 			);
 			name = "AvecMoi (iOS)";
+			packageProductDependencies = (
+				5B5BFEED273707F900FEAD2F /* Lottie */,
+			);
 			productName = "AvecMoi (iOS)";
 			productReference = 5B5BFE942736DC0A00FEAD2F /* AvecMoi.app */;
 			productType = "com.apple.product-type.application";
@@ -182,6 +405,8 @@
 			dependencies = (
 			);
 			name = "AvecMoi (macOS)";
+			packageProductDependencies = (
+			);
 			productName = "AvecMoi (macOS)";
 			productReference = 5B5BFE9A2736DC0A00FEAD2F /* AvecMoi.app */;
 			productType = "com.apple.product-type.application";
@@ -222,6 +447,57 @@
 			productReference = 5B5BFEAD2736DC0A00FEAD2F /* Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		5B67C3EE273851F300CEDB97 /* AvecMoi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B67C418273851F700CEDB97 /* Build configuration list for PBXNativeTarget "AvecMoi" */;
+			buildPhases = (
+				5B67C3ED273851F300CEDB97 /* Resources */,
+				5B67C410273851F700CEDB97 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B67C3F5273851F300CEDB97 /* PBXTargetDependency */,
+			);
+			name = AvecMoi;
+			productName = AvecMoi;
+			productReference = 5B67C3EF273851F300CEDB97 /* AvecMoi.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		5B67C3F1273851F300CEDB97 /* AvecMoi WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B67C417273851F700CEDB97 /* Build configuration list for PBXNativeTarget "AvecMoi WatchKit App" */;
+			buildPhases = (
+				5B67C3F0273851F300CEDB97 /* Resources */,
+				5B67C413273851F700CEDB97 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B67C400273851F600CEDB97 /* PBXTargetDependency */,
+			);
+			name = "AvecMoi WatchKit App";
+			productName = "AvecMoi WatchKit App";
+			productReference = 5B67C3F2273851F300CEDB97 /* AvecMoi WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		5B67C3FC273851F600CEDB97 /* AvecMoi WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B67C416273851F700CEDB97 /* Build configuration list for PBXNativeTarget "AvecMoi WatchKit Extension" */;
+			buildPhases = (
+				5B67C3F9273851F600CEDB97 /* Sources */,
+				5B67C3FA273851F600CEDB97 /* Frameworks */,
+				5B67C3FB273851F600CEDB97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AvecMoi WatchKit Extension";
+			productName = "AvecMoi WatchKit Extension";
+			productReference = 5B67C3FD273851F600CEDB97 /* AvecMoi WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -246,6 +522,15 @@
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = 5B5BFE992736DC0A00FEAD2F;
 					};
+					5B67C3EE273851F300CEDB97 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					5B67C3F1273851F300CEDB97 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					5B67C3FC273851F600CEDB97 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 				};
 			};
 			buildConfigurationList = 5B5BFE882736DC0700FEAD2F /* Build configuration list for PBXProject "AvecMoi" */;
@@ -257,6 +542,9 @@
 				Base,
 			);
 			mainGroup = 5B5BFE842736DC0700FEAD2F;
+			packageReferences = (
+				5B5BFEEC273707F900FEAD2F /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 5B5BFE952736DC0A00FEAD2F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -265,6 +553,9 @@
 				5B5BFE992736DC0A00FEAD2F /* AvecMoi (macOS) */,
 				5B5BFEA02736DC0A00FEAD2F /* Tests iOS */,
 				5B5BFEAC2736DC0A00FEAD2F /* Tests macOS */,
+				5B67C3EE273851F300CEDB97 /* AvecMoi */,
+				5B67C3F1273851F300CEDB97 /* AvecMoi WatchKit App */,
+				5B67C3FC273851F600CEDB97 /* AvecMoi WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -274,7 +565,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B97C64627383623007D09C7 /* Itim-Regular.ttf in Resources */,
 				5B5BFEBD2736DC0A00FEAD2F /* Assets.xcassets in Resources */,
+				5B5BFEF02737084200FEAD2F /* animation_asset.json in Resources */,
+				5B72295527370CF50093EEA6 /* owl.json in Resources */,
+				5B72295B2737239E0093EEA6 /* home_animation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +577,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B97C64727383623007D09C7 /* Itim-Regular.ttf in Resources */,
 				5B5BFEBE2736DC0A00FEAD2F /* Assets.xcassets in Resources */,
+				5B5BFEF12737084200FEAD2F /* animation_asset.json in Resources */,
+				5B72295627370CF50093EEA6 /* owl.json in Resources */,
+				5B72295C2737239E0093EEA6 /* home_animation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +599,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5B67C3ED273851F300CEDB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B67C3F0273851F300CEDB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B67C3F8273851F600CEDB97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B67C3FB273851F600CEDB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B67C40C273851F700CEDB97 /* Preview Assets.xcassets in Resources */,
+				5B67C409273851F700CEDB97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -307,8 +630,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B5BFED42736E4E100FEAD2F /* TempView.swift in Sources */,
+				5B5BFEDD2736EDA300FEAD2F /* DetailView.swift in Sources */,
+				5B84FC7F2737809E00D32435 /* QuizRepository.swift in Sources */,
 				5B5BFEB72736DC0A00FEAD2F /* AvecMoiApp.swift in Sources */,
+				5B84FC7927377A8C00D32435 /* PracticeView.swift in Sources */,
+				5B72295827370EF10093EEA6 /* HomeView.swift in Sources */,
 				5B5BFEBB2736DC0A00FEAD2F /* Persistence.swift in Sources */,
+				5B5BFEE42736F20800FEAD2F /* Data.swift in Sources */,
+				5B5BFED72736EB7800FEAD2F /* WordRow.swift in Sources */,
+				5B5BFED02736E3E400FEAD2F /* AppViewer.swift in Sources */,
+				5B5BFEEA2737039000FEAD2F /* LearnedWordsList.swift in Sources */,
+				5B5BFEDA2736EBCB00FEAD2F /* WordsList.swift in Sources */,
+				5B5BFEE12736F09100FEAD2F /* Word.swift in Sources */,
+				5B5BFEE72736FE0500FEAD2F /* DataRepository.swift in Sources */,
+				5B84FC7C2737805400D32435 /* Quiz.swift in Sources */,
+				5B7229522737094A0093EEA6 /* LottieView.swift in Sources */,
 				5B5BFEB52736DC0A00FEAD2F /* AvecMoi.xcdatamodeld in Sources */,
 				5B5BFEB92736DC0A00FEAD2F /* ContentView.swift in Sources */,
 			);
@@ -318,9 +655,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B5BFED52736E4E100FEAD2F /* TempView.swift in Sources */,
+				5B84FC7A27377A8C00D32435 /* PracticeView.swift in Sources */,
+				5B5BFEDE2736EDA300FEAD2F /* DetailView.swift in Sources */,
 				5B5BFEB82736DC0A00FEAD2F /* AvecMoiApp.swift in Sources */,
+				5B72295927370EF10093EEA6 /* HomeView.swift in Sources */,
 				5B5BFEBC2736DC0A00FEAD2F /* Persistence.swift in Sources */,
+				5B5BFEE52736F20800FEAD2F /* Data.swift in Sources */,
+				5B5BFED82736EB7800FEAD2F /* WordRow.swift in Sources */,
+				5B5BFED22736E3F500FEAD2F /* AppViewer.swift in Sources */,
+				5B5BFEEB2737039000FEAD2F /* LearnedWordsList.swift in Sources */,
+				5B5BFEDB2736EBCB00FEAD2F /* WordsList.swift in Sources */,
+				5B5BFEE22736F09100FEAD2F /* Word.swift in Sources */,
+				5B5BFEE82736FE0500FEAD2F /* DataRepository.swift in Sources */,
 				5B5BFEB62736DC0A00FEAD2F /* AvecMoi.xcdatamodeld in Sources */,
+				5B84FC802737809E00D32435 /* QuizRepository.swift in Sources */,
+				5B84FC7D2737805400D32435 /* Quiz.swift in Sources */,
 				5B5BFEBA2736DC0A00FEAD2F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +693,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5B67C3F9273851F600CEDB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B67C41F2738786C00CEDB97 /* WordRow.swift in Sources */,
+				5B67C405273851F600CEDB97 /* AvecMoiApp.swift in Sources */,
+				5B67C4202738788100CEDB97 /* AvecMoi.xcdatamodeld in Sources */,
+				5B67C41D2738785800CEDB97 /* Word.swift in Sources */,
+				5B67C41B2738784E00CEDB97 /* DetailView.swift in Sources */,
+				5B67C419273877EC00CEDB97 /* HomeView.swift in Sources */,
+				5B67C403273851F600CEDB97 /* ContentView.swift in Sources */,
+				5B67C421273878EC00CEDB97 /* PracticeView.swift in Sources */,
+				5B67C423273878F500CEDB97 /* QuizRepository.swift in Sources */,
+				5B67C407273851F600CEDB97 /* ComplicationController.swift in Sources */,
+				5B67C422273878F200CEDB97 /* Quiz.swift in Sources */,
+				5B67C41A2738784200CEDB97 /* WordsList.swift in Sources */,
+				5B67C41E2738786400CEDB97 /* Data.swift in Sources */,
+				5B67C41C2738785200CEDB97 /* DataRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -355,6 +726,16 @@
 			isa = PBXTargetDependency;
 			target = 5B5BFE992736DC0A00FEAD2F /* AvecMoi (macOS) */;
 			targetProxy = 5B5BFEAE2736DC0A00FEAD2F /* PBXContainerItemProxy */;
+		};
+		5B67C3F5273851F300CEDB97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B67C3F1273851F300CEDB97 /* AvecMoi WatchKit App */;
+			targetProxy = 5B67C3F4273851F300CEDB97 /* PBXContainerItemProxy */;
+		};
+		5B67C400273851F600CEDB97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B67C3FC273851F600CEDB97 /* AvecMoi WatchKit Extension */;
+			targetProxy = 5B67C3FF273851F600CEDB97 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -479,6 +860,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AvecMoi--iOS--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -508,6 +891,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AvecMoi--iOS--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -540,6 +925,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AvecMoi--macOS--Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -566,6 +952,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AvecMoi--macOS--Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -678,6 +1065,145 @@
 			};
 			name = Release;
 		};
+		5B67C40E273851F700CEDB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asadmansoor.AvecMoi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5B67C40F273851F700CEDB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asadmansoor.AvecMoi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B67C411273851F700CEDB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = AvecMoi_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "AvecMoi WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asadmansoor.AvecMoi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		5B67C412273851F700CEDB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = AvecMoi_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "AvecMoi WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asadmansoor.AvecMoi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		5B67C414273851F700CEDB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AvecMoi WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AvecMoi WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AvecMoi WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asadmansoor.AvecMoi.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		5B67C415273851F700CEDB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AvecMoi WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AvecMoi WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AvecMoi WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asadmansoor.AvecMoi.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -726,7 +1252,53 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5B67C416273851F700CEDB97 /* Build configuration list for PBXNativeTarget "AvecMoi WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B67C414273851F700CEDB97 /* Debug */,
+				5B67C415273851F700CEDB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B67C417273851F700CEDB97 /* Build configuration list for PBXNativeTarget "AvecMoi WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B67C411273851F700CEDB97 /* Debug */,
+				5B67C412273851F700CEDB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B67C418273851F700CEDB97 /* Build configuration list for PBXNativeTarget "AvecMoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B67C40E273851F700CEDB97 /* Debug */,
+				5B67C40F273851F700CEDB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5B5BFEEC273707F900FEAD2F /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5B5BFEED273707F900FEAD2F /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B5BFEEC273707F900FEAD2F /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		5B5BFE8A2736DC0700FEAD2F /* AvecMoi.xcdatamodeld */ = {
